@@ -1,0 +1,319 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+                                                    /* Start editing here */
+
+body {
+        background-color: hsl(133, 98%, 19%)
+}
+
+@font-face{
+        font-family: 'georgia';
+        src: url('fonts/Georgia.ttf');
+}
+
+body {
+        background-color: lch(15.55% 28.44 142.99)
+}
+
+header{
+                width: 100%;
+                height: 200px;
+                background-color: hsl(133, 98%, 25%);
+                color: white;
+                padding: 0% 0%;
+                border-bottom: 4px solid white;
+                border-top: 4px solid white;
+                border-left: 3px solid white;
+                border-right: 3px solid white;
+}
+
+nav ul li{
+       display: inline-block;
+       display:inline-flex;
+        text-align: center; 
+        float: right;
+        margin: 0px 0px 0px 0px;
+        font-family: Georgia, 'Times New Roman', Times;
+        font-size: 20px;
+        Padding: 00px 0px 0px 0px;
+        height: 200px;
+
+        
+}
+
+nav ul li a{
+        color: white;
+        text-decoration: none;
+        border: white 2px solid;
+        border-left: white 2px solid;
+        border-right: white 2px solid;
+        border-top: white 4px solid;
+        border-bottom: white 2px solid;
+        box-sizing: border-box;
+        background-color: hsl(133, 98%, 19%);
+        border-radius: 0%;
+        border-spacing: 0px;
+        width: 200px;
+        display: inline-block;
+        padding: 0px 10px 0px 10px;
+        line-height: 195px;
+
+}
+
+nav ul li a:hover{
+        color: goldenrod;
+        text-decoration: none;
+        transform: scale(1.1);
+        font-size: 20px;
+       
+}
+
+h1, h2, h3, h4, h5, h6 {
+        font-family: Georgia, 'Times New Roman', Times;
+        color: white;
+} 
+
+h1{
+        float: left;
+}
+
+h2{
+        font-size: 75px;
+        color: goldenrod; 
+        font-weight: bold;
+        padding: 65px 30px 0px 0px;
+        text-decoration: underline;
+}
+
+h1{
+        display: inline-block;
+        font-size: 100px;
+        color: white; 
+        font-weight: bold;
+        padding: 25px 0px 0px 0px;
+        text-decoration: none;
+}
+
+video{
+        border-bottom: 5px solid white;
+}
+
+h3{
+        font-size: 60px;
+        color: white; 
+        font-weight: bold;
+        float: center;
+        padding: 50px 50px 50px 310px;
+}
+
+h4{
+        font-size: 60px;
+        color: white; 
+        font-weight: bold;
+        float: center;
+        padding: 50px 100px 50px 215px;
+}
+
+#Figures {
+        width: 100%;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        color: white;
+}
+
+figure1, figure2, figure3, figure4 {
+        font-size: 15px;
+        color: white;
+        text-align: center;
+}
+
+#Figures li {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin: 0px 0px 0px 0px;
+        padding: 40px;
+}
+
+figcaption {
+        font-size: 20px;
+        color: white;
+        text-decoration: solid;
+}
+
+.circle {
+        width: 250px; 
+        height: 250px;
+        background-color: white; 
+        border-radius: 50%; 
+        border: black 4px solid; 
+        display: inline-block; 
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+        opacity: 0.9;
+}
+
+.imgsize {
+        display: flex;
+        justify-content: center;
+        width: 10px;
+        height: auto;
+
+}
+
+#infosection {
+        width: 90%;
+        height: 500px;
+        margin: 50px auto;
+        padding: 50px 40px 40px 40px;
+        background-color: hsl(133, 98%, 25%);
+        border-radius: 10px;
+        color: white;
+}
+
+#infosection ul li{
+        display: inline-block;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+}
+
+#infosection ul li a{
+        font-size: 25px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        width: 500px;
+        height: auto;
+        color: white;
+        text-decoration: none;
+        padding: 0px 55px 10px 20px;
+}
+
+#infosection ul li a:hover{
+        color: goldenrod;
+        font-size: 20px;
+        font-size: 25px;
+}
+
+
+
+footer {
+        width: 100%;
+        height: 150px;
+        background-color: #246f28;
+        color: white;
+        padding: 20px 0px 0px 0px;
+        border-top: 5px solid white;
+        border-bottom: 5px solid white;
+        text-align: center;
+}
+
+footer img {
+        padding: 0px 0px 0px 0px;
+}
+
+#socialmediaicons {
+        display: inline-flex;
+        justify-content: left;
+        width: 100px;
+        height: auto;
+        padding: 0px 15px 0px 15px;
+}
+
+
+
+#Instagram img {
+        width: 100px;
+        height: auto;
+
+}
+
+#Tiktok img {
+        width: 100px;
+        height: auto;
+        padding: 16px 0px 0px 10px;
+}
+
+#Facebook img {
+        width: 130px;
+        height: auto;
+        padding: 18px 0px 0px 0px;
+}
+
+ #Instagram, #Tiktok, #Facebook {
+        display: inline-block;
+        padding: 10px 0px 0px 0px;
+        float: left;
+}
+
+#footertext {
+        display: inline-block;
+        padding: 40px 10px 0px 50px;
+        float: right;
+        font-size: 10px;
+        text-align: left;
+}
+
+p {
+        font-family: Georgia, 'Times New Roman', Times;
+        color: white;
+        font-size: 10px;
+        width: 1000px;
+        height: auto;
+        text-align: center;
+        display: center;
+        padding: 45px 0px 50px 100px;
+}
